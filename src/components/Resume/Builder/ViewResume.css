@@ -1,0 +1,47 @@
+.view-resume-container {
+  margin-top: 2.5rem; /* my-10 */
+  margin-left: 2.5rem; /* mx-10 */
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem;
+
+}
+
+@media (min-width: 768px) {
+  .view-resume-container {
+    margin-left: 5rem; /* md:mx-20 */
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .view-resume-container {
+    margin-left: 9rem; /* lg:mx-36 */
+    margin-right: 9rem;
+  }
+}
+
+.header-text {
+  text-align: center;
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 500; /* font-medium */
+  margin-bottom: 0.5rem;
+}
+
+.subtext {
+  text-align: center;
+  color: #9ca3af; /* gray-400 */
+  margin-bottom: 2.5rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11rem; /* px-44 */
+  padding-right: 11rem;
+  margin-top: 2.5rem; /* my-10 */
+  margin-bottom: 2.5rem;
+}
+
+#print-area {
+  /* You can add print-specific styles here if needed */
+}

@@ -1,0 +1,35 @@
+.theme-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popover-content {
+  padding: 16px;
+  width: 200px;
+}
+
+.popover-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.color-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.color-circle.selected {
+  border: 2px solid black;
+}

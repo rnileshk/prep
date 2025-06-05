@@ -1,0 +1,66 @@
+.education-container {
+  padding: 1.25rem;
+  margin-top: 2.5rem;
+  border-top: 4px solid #3b82f6; /* Tailwind 'primary' */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.education-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.education-subheading {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.education-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  border-radius: 0.5rem;
+  background-color: #fafafa;
+}
+
+.education-label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #374151;
+}
+
+.education-description {
+  grid-column: span 2;
+  margin-top: 0.5rem;
+}
+
+.education-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.education-buttons-left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.spin-icon {
+  animation: spin 1s linear infinite;
+}
+
+/* Spin animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

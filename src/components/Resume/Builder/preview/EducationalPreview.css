@@ -1,0 +1,38 @@
+.education-preview-container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-heading {
+  font-weight: bold;
+  font-size: 1.5rem; /* text-sm */
+  margin-bottom: 0.5rem;
+}
+
+.education-entry {
+  margin-top: 1.25rem; /* my-5 */
+  margin-bottom: 1.25rem;
+}
+
+.university-name {
+  font-size: 1.5rem; /* text-sm */
+  font-weight: bold;
+}
+
+.degree-major {
+  font-size: 1.2rem; /* text-xs */
+  display: flex;
+  font-weight: 100;
+  justify-content: space-between;
+}
+
+.education-dates {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.education-description {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
