@@ -42,7 +42,6 @@ import ResumeHome from './components/Resume/Builder/ResumeHome';
 
 import Aptitude from './components/Apptitude/Aptitude';
 import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
 
 
 /*  Coding  */
@@ -107,7 +106,6 @@ function App() {
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route path='/faq' element={<Faq />} />
           <Route path='/about-us' element={<AboutUs />} />
-          <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/service' element={<Services />} />
           
           <Route path='/aptitude-test' element={<Aptitude />} />
