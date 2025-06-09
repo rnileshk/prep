@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         title: "About Us",
-        url: "/aboutUs",
+        url: "/about-us",
         cName: "nav-links",
         icon: "fas fa-user"
     },
@@ -13,7 +13,7 @@ export const MenuData = [
     },
     {
         title: "Contact Us",
-        url: "/contactUs",
+        url: "/contact-us",
         cName: "nav-links",
         icon: "fas fa-envelope"
     },

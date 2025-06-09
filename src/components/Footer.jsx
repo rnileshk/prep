@@ -24,8 +24,9 @@ const Footer = () => {
           <h4 style={{ fontSize: "1.5rem" }}>Company</h4>
           <ul>
              <li> <a href='/' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Home</a></li>
-            <li><a href='/aboutUs' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>About Us</a></li>
-            <li> <a href='#' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Contact Us</a></li>
+            <li><a href='/about-us' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>About Us</a></li>
+            <li> <a href='/contact-us' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Contact Us</a></li>
+            <li><a href='/service' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Services</a></li>
           </ul>
         </div>
 
@@ -33,7 +34,7 @@ const Footer = () => {
           <h4 style={{ fontSize: "1.5rem" }}>Explore</h4>
           <ul>
             <li><a href='/study-material' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Study Material</a></li>
-            <li><a href='#' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Resume Builder</a></li>
+            <li><a href='/resume-builder' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Resume Builder</a></li>
             <li><a href='/aptitude-test' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Aptitute</a></li>
             <li><a href='/mock-interview' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Mock Interview</a></li>
             <li><a href='/coding' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Coding Practise</a></li>
